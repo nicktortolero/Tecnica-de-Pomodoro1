@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Settings } from '../../types';
-import Button from '../Button';
+import { Settings } from '../../types.js'; // Use .js extension
+import Button from '../Button.js'; // Use .js extension
 
 interface SettingsModalProps {
   isOpen: boolean;

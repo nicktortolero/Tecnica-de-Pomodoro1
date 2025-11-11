@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import { registerServiceWorker } from './serviceWorkerRegistration';
+import App from './App.js'; // Use .js extension for browser module resolution
+import { registerServiceWorker } from './serviceWorkerRegistration.js'; // Use .js extension
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -15,4 +15,6 @@ root.render(
   </React.StrictMode>
 );
 
+console.log("Attempting to register service worker...");
 registerServiceWorker();
+console.log("Service worker registration initiated.");

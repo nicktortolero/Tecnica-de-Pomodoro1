@@ -1,5 +1,5 @@
 import React from 'react';
-import { Task } from '../types';
+import { Task } from '../types.js'; // Use .js extension
 
 interface TaskListProps {
   tasks: Task[];

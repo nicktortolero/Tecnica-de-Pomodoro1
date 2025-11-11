@@ -1,4 +1,4 @@
-import { Settings, AppState, PomodoroStats } from './types';
+import { Settings, AppState, PomodoroStats } from './types.js'; // Use .js extension
 
 export const DEFAULT_SETTINGS: Settings = {
   pomodoro: 25 * 60,      // 25 minutes

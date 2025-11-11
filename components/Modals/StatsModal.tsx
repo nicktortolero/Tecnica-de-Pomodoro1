@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { PomodoroStats, Achievement, Settings } from '../../types';
-import Button from '../Button';
-import AchievementBadge from '../AchievementBadge';
+import { PomodoroStats, Achievement, Settings } from '../../types.js'; // Use .js extension
+import Button from '../Button.js'; // Use .js extension
+import AchievementBadge from '../AchievementBadge.js'; // Use .js extension
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
   PieChart, Pie, Cell

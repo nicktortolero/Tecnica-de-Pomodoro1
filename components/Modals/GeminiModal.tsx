@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '../Button';
-import { geminiService, GeminiModel } from '../../services/geminiService';
+import Button from '../Button.js'; // Use .js extension
+import { geminiService, GeminiModel } from '../../services/geminiService.js'; // Use .js extension
 
 interface GeminiModalProps {
   isOpen: boolean;

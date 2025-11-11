@@ -1,17 +1,17 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { TimerMode, Task, Settings, AppState, PomodoroStats } from './types';
-import { DEFAULT_SETTINGS, INITIAL_APP_STATE } from './constants';
-import TimerDisplay from './components/TimerDisplay';
-import TimerControls from './components/TimerControls';
-import ModeButton from './components/ModeButton';
-import TaskInput from './components/TaskInput';
-import TaskList from './components/TaskList';
-import AchievementBadge from './components/AchievementBadge';
-import StatsModal from './components/Modals/StatsModal';
-import SettingsModal from './components/Modals/SettingsModal';
-import ThemeModal from './components/Modals/ThemeModal';
-import GeminiModal from './components/Modals/GeminiModal';
-import BackgroundModeIndicator from './components/BackgroundModeIndicator';
+import { TimerMode, Task, Settings, AppState, PomodoroStats } from './types.js'; // Use .js extension
+import { DEFAULT_SETTINGS, INITIAL_APP_STATE } from './constants.js'; // Use .js extension
+import TimerDisplay from './components/TimerDisplay.js'; // Use .js extension
+import TimerControls from './components/TimerControls.js'; // Use .js extension
+import ModeButton from './components/ModeButton.js'; // Use .js extension
+import TaskInput from './components/TaskInput.js'; // Use .js extension
+import TaskList from './components/TaskList.js'; // Use .js extension
+import AchievementBadge from './components/AchievementBadge.js'; // Use .js extension
+import StatsModal from './components/Modals/StatsModal.js'; // Use .js extension
+import SettingsModal from './components/Modals/SettingsModal.js'; // Use .js extension
+import ThemeModal from './components/Modals/ThemeModal.js'; // Use .js extension
+import GeminiModal from './components/Modals/GeminiModal.js'; // Use .js extension
+import BackgroundModeIndicator from './components/BackgroundModeIndicator.js'; // Use .js extension
 
 const App: React.FC = () => {
   const [settings, setSettings] = useState<Settings>(() => {
